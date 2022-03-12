@@ -39,5 +39,5 @@ extrasCheckBoxes.forEach(checkbox => checkbox.addEventListener('change', functio
     } ));
 
 mainPageImage.addEventListener('click', function(){
-    window.location = "project-BJSmart-page1.html";
+    window.location = "index.html";
 })
