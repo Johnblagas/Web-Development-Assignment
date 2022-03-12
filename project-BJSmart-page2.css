@@ -1,0 +1,55 @@
+
+.ul-without-style{
+    list-style-type: none;
+}
+
+textarea{
+    resize: none;
+}
+
+.phone-selection{
+    float: right;
+    color: white;
+    text-decoration: underline;
+}
+
+#phone-image{
+    position: relative;
+    right: 45px;
+}
+
+.selection{
+    background-color: rgb(92, 90, 90);
+    border: solid black;
+}
+
+body{
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+@media (max-width: 600px) {
+    .phone-selection{
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #phone-image{
+        margin-left: 120px;
+    }
+
+    .selection{
+        display: grid;
+        grid-template-columns: 1fr;
+        place-items: center;
+        margin: 1rem;
+    }
+
+    .calculate-cost{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    }

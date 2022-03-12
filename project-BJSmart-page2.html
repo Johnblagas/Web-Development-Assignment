@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>BJSmart</title>
+
+        <link rel="stylesheet" href="project-BJSmart.css">
+        <link rel="stylesheet" href="project-BJSmart-page2.css">
+    </head>
+
+    <body>
+        <header>
+            <img src = "Images/Logo2.png" alt="BJSmart-logo" title="BJSmart-logo" width=130 id="main-logo">
+        </header>
+
+        <div class="phone-selection"> 
+            <p>Η επιλογή σας</p>
+            <img id="phone-image" src =" " width=200>
+        </div>
+
+        <div class="selection">
+            <h3>Επίλεξε Edition</h3>
+            <ul class="ul-without-style">
+                <li>Basic<input type="radio" name="in1" value="200" checked></li>
+                <ul>
+                    <li>Επεξεργαστής: Snapdragon 720G, 2.63Ghz</li>
+                    <li>RAM: 4GB</li>
+                    <li>Οθόνη:2400 x 1080, 6.67"</li>
+                    <li>Μπαταρία: 4300 mAh</li>
+                    <li>Χωρητικότητα: 64GB</li>
+                </ul>
+                <br>
+
+                <li>Deluxe<input type="radio" name="in1" value="250"></li>
+                <ul>
+                    <li>Επεξεργαστής: Snapdragon 720G, 3.00Ghz</li>
+                    <li>RAM: 4GB</li>
+                    <li>Οθόνη:2400 x 1080, 6.67"</li>
+                    <li>Μπαταρία: 5020 mAh</li>
+                    <li>Χωρητικότητα: 128GB</li>
+                </ul>
+                <br>
+
+                <li>Ultimate<input type="radio" name="in1" value="300"></li>
+                <ul>
+                    <li>Επεξεργαστής: Snapdragon 732G, 3.00Ghz</li>
+                    <li>RAM: 6GB</li>
+                    <li>Οθόνη: 2400 x 1080, 6.67"</li>
+                    <li>Μπαταρία: 6000 mAh</li>
+                    <li>Χωρητικότητα: 256GB</li>
+                </ul>
+                <br>
+
+            </ul>
+        </div>
+
+        <div class="selection">
+            <h3>Επίλεξε Λειτουργικό Σύστημα</h3>
+            <ul class="ul-without-style">
+                <li>Android 10<input type="radio" name="in2" value="0" checked></li>
+                <li>BJSmart OS<input type="radio" name="in2" value="30"></li>
+            </ul>
+        </div>
+
+        <div class="selection">
+            <h3>Επίλεξε Extras</h3>
+            <ul class="ul-without-style">
+                <li>Tempered Glass<input type="checkbox" value="5" name="in3"></li>
+                <li>Ακουστικά hands free<input type="checkbox" value="7" name="in3"></li>
+                <li>Θήκη προστασίας<input type="checkbox" value="10" name="in3"></li>
+            </ul>
+        </div>
+
+        <div class="calculate-cost">
+            <h3>ΣΥΝΟΛΟ: </h3>
+            <textarea rows="1" id="cost-area" readonly>0</textarea>
+        </div>
+
+        <footer>
+            &copy Copyrights belong to Blagas Ioannis, Student at the Department of Amplied Informatics, of University of Macedonia.
+        </footer>
+
+        <script src="project-BJSmart-page2.js"></script>
+
+    </body>
+</html>
